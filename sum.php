@@ -46,34 +46,3 @@ arsort($array);
 print_r($array);
 ?>
 
-<?php
-function prod($number){
-    $result = 0;
-    
-    $result = $number * 2;
-
-    return $result;
-}
-
-echo prod(5);
-?>
-
-<?php
-function f($a,$b){
-    $result = $a + $b;
-}   return $result;
-echo f(10,20);
-?>
-
-<?php
-$arr = array(1,3,5,7,9);
- array_product($arr);
-    
-
-?>
-
-<?php
-
-$arr = array(1,3,5,7,9);
-echo "product(a) = " . array_product($arr) . "\n";
-?>

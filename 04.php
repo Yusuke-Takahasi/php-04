@@ -22,15 +22,15 @@ echo f(10,20);
 
 //課題３
 <?php
-    function getpro($arr,$arr2,$arr3,$arr4,$arr5){
-        $result = 0;
-        return $arr * $arr2 * $arr3 * $arr4 * $arr5;
-        
-        
-    }
-    
-    $result = getpro(1,3,5,7,9);
-    echo $result;
+  $arr = array(1,3,5,7,9);
+  function mul($arr) {
+    $result = 1;
+    foreach ($arr as $pro){
+      $result *= $pro;
+    } 
+    return $result;
+  }
+echo mul($arr) . "\n";
 ?>
 
 //課題４
